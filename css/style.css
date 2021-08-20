@@ -1,6 +1,44 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'Montserrat', sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+.mac-img{
+    width: 600px;
+}
+.mac-img img{
+    width: 100%;
+}
+.memory,
+.storage,
+.delivery{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 0;
+  font-size: 16px;
+  font-weight: 700;
+}
+.memory h2,
+.storage h2,
+.delivery h2{
+    cursor: pointer;
+    border-radius: 8px;
+}
+.memory h2:hover,
+.storage h2:hover,
+.delivery h2:hover{
+    background-color: black;
+    color: white;
+}
+table tr td{
+    padding: 5px 8px;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.219);
+}
+table td:nth-child(even){
+    padding-left: 100px;
 }
