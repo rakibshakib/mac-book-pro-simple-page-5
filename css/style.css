@@ -10,6 +10,7 @@
 .mac-img img{
     width: 100%;
 }
+/* customize option css */
 .memory,
 .storage,
 .delivery{
@@ -33,6 +34,7 @@
     background-color: black;
     color: white;
 }
+/* price tavle css here */
 table tr td{
     padding: 5px 8px;
     margin-top: 10px;
