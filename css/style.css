@@ -16,15 +16,16 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 25px 0;
-  font-size: 16px;
-  font-weight: 700;
+  padding: 15px 0;
 }
 .memory h2,
 .storage h2,
 .delivery h2{
+    font-weight: 700;
+    font-size: 16px;
     cursor: pointer;
     border-radius: 8px;
+    margin-right: 10px;
 }
 .memory h2:hover,
 .storage h2:hover,
@@ -35,8 +36,8 @@
 table tr td{
     padding: 5px 8px;
     margin-top: 10px;
-    font-size: 18px;
-    font-weight: 500;
+    font-size: 16px;
+    font-weight: 700;
     border-bottom: 1px solid rgba(0, 0, 0, 0.219);
 }
 table td:nth-child(even){

@@ -25,7 +25,11 @@ function discount() {
     const itemTotalPrice = totalPrice();
     let discountPrice;
     if (promoInput.value == 'stevekaku') {
-        discountPrice = itemTotalPrice * (20 / 100);
+        discountPrice = itemTotalPrice * (20 / 100);   
+        promoInput.value = '';
+    }else{
+        alert('sorry! Your coupon is wrong');
+        discountPrice = 0;
         promoInput.value = '';
     }
     const afterDiscountTotalPrice = itemTotalPrice - discountPrice;
