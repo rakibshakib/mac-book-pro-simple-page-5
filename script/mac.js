@@ -35,7 +35,6 @@ function discount() {
     finalPrice.innerText = parseInt(afterDiscountTotalPrice);
 }
 // here are all button event 
-
 document.getElementById('normal-memory').addEventListener('click', function () {
     itemsPrice('memory', 0)
 })
